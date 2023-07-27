@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="./styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/Peony.jpg" id="profile-pic" class="d-block mx-lg-auto img-fluid frame" alt="Peony profile picture" width="400" height="300" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-1 fw-bold text-body-emphasis lh-1 mb-3">Peony Blossom</h1>
+          <p class="lead">Web developer with a particular interest in python.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          </div>
+          <a href="./contact.html"><button type="button" class="btn btn-light">Contact Me: peonyblossom27@gmail.com</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Programming languages</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-none d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <img class="bi" height="50px" width="50px" src="./images/python.png">
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Python</h3>
+              <p>Intermediate skill level: <br/> Using python along with modules such as Pandas, Selenium, WTForms, Jinja, Flask and SQLite to produce responsive programs.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-none d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <img class="bi" height="50px" width="50px" src="./images/css-3.png"/>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">CSS</h3>
+              <p>Intermediate skill level:<br/> Building custom stylesheets as well as using bootstrap to quickly produce modern and user friendly website designs.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square text-body-emphasis bg-body-none d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <img class="bi" height="50px" width="50px" src="./images/html-5.png">
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">HTML:5</h3>
+              <p>Intermediate skill level:<br/>Custom website creations with intergrated features, adaptive user interfaces and web hosting</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="pb-2 border-bottom">Completed projects</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/movie-ranking.png" class="d-block w-100" alt="movie-ranking preview">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/birthday-invite.png" class="d-block w-100" alt="birthday-invite preview">
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+            <p>© 2023 Peony Blossom. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+              <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+          </div>
+        </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>    
+</body>
+</html>

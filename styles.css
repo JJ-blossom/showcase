@@ -1,0 +1,33 @@
+/* body{
+    background-image: url('./background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+#profile-pic{
+    border-radius: 30%;
+    margin: 10px solid black
+}
+.frame{
+    width:500px;
+    height:500px;
+    border: 5px solid white;
+    margin: auto;
+    padding: 20px;
+}
+
+body{
+    background-color: lightcoral;
+    padding: 20px;
+    border: 5px solid white;
+}
+/* .bi{
+    height:"50px";
+    width:"50px"
+} */
+
+/* #image{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
